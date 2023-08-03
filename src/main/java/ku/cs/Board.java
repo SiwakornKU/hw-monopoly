@@ -1,7 +1,9 @@
 package ku.cs;
 
-public class Board {
-    public void getSquare(){
+import java.util.List;
 
-    }
+public class Board {
+
+    List<Square> squares;
+
 }

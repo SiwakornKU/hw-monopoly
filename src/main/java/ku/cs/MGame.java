@@ -1,7 +1,14 @@
 package ku.cs;
 
+import java.util.List;
+
 public class MGame {
-    private int roundCat;
+    int roundCat;
+    List<Dice> dices; // 2 dices
+
+    List<Player> players; // 2-8 players
+
+    Board board;
 
     public void playGame(){
 
