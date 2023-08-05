@@ -11,10 +11,12 @@ public class MGame {
     Board board;
 
     public void playGame(){
-
+        for(int i=0; i<players.size(); i++){
+            this.playRound(i);
+        }
     }
 
-    private void playRound(){
-
+    private void playRound(int i){
+        players.get(i).takeTurn();
     }
 }

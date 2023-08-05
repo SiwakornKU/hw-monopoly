@@ -23,6 +23,12 @@ public class Player {
             fv[i] = dices.get(i).getFaceValue();
         }
 
+        int fvTot = fv[0] + fv[1];
+
+        Square oldLoc = piece.getLocation();
+        Square newLoc = board.getSquare(oldLoc,fvTot);
+        piece.setLocation(newLoc);
+
     }
 
 }

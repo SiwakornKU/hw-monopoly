@@ -11,7 +11,7 @@ public class Board {
         boolean find = false;
         for(index=0; index < squares.size(); index++){
             if(squares.get(index).equals(oldLoc)){
-                find = true
+                find = true;
                 break;
             }
         }
